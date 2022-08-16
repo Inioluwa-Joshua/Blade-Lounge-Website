@@ -5,6 +5,11 @@
  
     
 }
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -125,7 +130,7 @@ nav ul li a{
     z-index: 1;
     display: inline-block;
 }
-.title-text p::after{
+/* .title-text p::after{
     content: '';
     width: 50px;
     height: 35px;
@@ -137,7 +142,7 @@ nav ul li a{
     transform: rotate(10deg);
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
-}
+} */
 .title-text h1{
     font-size: 50px;
 }
